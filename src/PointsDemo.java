@@ -20,8 +20,12 @@ public class PointsDemo {
             System.out.println("Would you like to add more points? (1 - YES, 2 - NO) ");
             System.out.print("Your choice: ");
             userChoice = scanner.nextInt();
+            if (userChoice !=1 && userChoice !=2) {
+                System.out.println("Incorrect command. Command is set to 2 by default");
+            }
             System.out.println();
-        } while (userChoice != 2);
+        } while (userChoice > 0 && userChoice < 2);
+
 
         System.out.println("Enter center coordinates:");
         System.out.print("X: ");
