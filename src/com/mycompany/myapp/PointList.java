@@ -1,3 +1,5 @@
+package com.mycompany.myapp;
+
 public class PointList {
     Point[] pointList = null;
 

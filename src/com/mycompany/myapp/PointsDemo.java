@@ -1,3 +1,5 @@
+package com.mycompany.myapp;
+
 import java.util.Scanner;
 
 public class PointsDemo {
@@ -7,7 +9,7 @@ public class PointsDemo {
         Scanner scanner = new Scanner(System.in);
         PointList pointList = new PointList();
         int userChoice;
-        int amountOfPoints = 0;
+        int amountOfPoints;
         do {
             System.out.println("Enter point coordinates:");
             System.out.print("X: ");
@@ -24,7 +26,7 @@ public class PointsDemo {
                 System.out.println("Incorrect command. Command is set to 2 by default");
             }
             System.out.println();
-        } while (userChoice > 0 && userChoice < 2);
+        } while (userChoice == 1);
 
 
         System.out.println("Enter center coordinates:");

@@ -1,3 +1,5 @@
+package com.mycompany.myapp;
+
 public class Circle {
     private Point center;
     private double radius;

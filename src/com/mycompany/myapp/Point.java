@@ -1,3 +1,5 @@
+package com.mycompany.myapp;
+
 import static java.lang.Math.*;
 
 public class Point {
